@@ -1,0 +1,76 @@
+  body {
+    background:linear-gradient(225deg, rgba(230, 255, 199, 0.6), rgba(139, 193, 255, 0.9),rgba(66, 132, 255, 0.9)),url("https://thumb.photo-ac.com/a8/a84dd923d52c15f37c16e7a642c0fcde_t.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 50px;
+    margin: 0; /* 上の余白を消す */
+    min-height: 100vh; /* 画面全体の高さに広げる */
+  }
+
+  h1{
+    font-family: "Azonix";
+    color:#ffffff;
+    margin-bottom:30px;
+    text-shadow: 8px 6px 10px rgb(85, 87, 187);
+  }
+
+  form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto 20px; 
+  border: 1px solid #ccc;  
+  border-radius: 4px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.password-container input {
+  border: none;             
+  outline: none;
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  background: transparent;  
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+  form >input[type="text"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"]{
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+  }
+
+  input[type="submit"]{
+    background-color: #0158b4;
+  }
